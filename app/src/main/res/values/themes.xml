@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.OpenMaxAndroid" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/DarkBlue</item>
+        <item name="colorPrimaryVariant">@color/DarkBlue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="checkBoxCustom" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/check_box</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="card_background_style" parent="Base.Widget.MaterialComponents.TextInputLayout">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.MaterialComponents.TextInputEditText.FilledBox
+        </item>
+        <item name="boxBackgroundMode">filled</item>
+<!--        <item name="boxBackgroundColor">@color/card_background_colour</item>-->
+        <!--        <item name="boxCollapsedPaddingTop">10dp</item>-->
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MaterialComponents.TextInputLayout.FilledBox
+        </item>
+    </style>
+</resources>

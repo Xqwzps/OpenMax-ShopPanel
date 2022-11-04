@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "127174429524",
+    "project_id": "openmax-3b507",
+    "storage_bucket": "openmax-3b507.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127174429524:android:87dd11a97b6170ec8196c1",
+        "android_client_info": {
+          "package_name": "com.horizam.openmax_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127174429524-rl6g6tav662g75nbvvlbvh9egs3q58bl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.horizam.openmax_android",
+            "certificate_hash": "2277646dbe42bb7d11820722b3d3d4da78ff1ede"
+          }
+        },
+        {
+          "client_id": "127174429524-mm4ojuos5imfjsej79ucptpdahu4oc80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAH7CK8_LaKuniirKl2dKfrwUmoIdQjuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127174429524-mm4ojuos5imfjsej79ucptpdahu4oc80.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
